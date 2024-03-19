@@ -77,5 +77,24 @@ header {
 	width: 13rem;
 	height: 0.3rem;
 	background-color: #ffb749;
-	margin: 0.5rem 0;
+}
+.content-column {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.header-button {
+	background-color: #ffb749;
+	border-radius: 2rem;
+	border: 2px solid white;
+	font-size: 1.5rem;
+	color: white;
+	padding: 0.2rem 3rem;
+	transition: background-color 0.2s linear;
+}
+
+.header-button:hover {
+	background-color: #02557d;
+	transition: background-color 0.2s linear;
 }
