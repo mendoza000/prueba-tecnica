@@ -1,0 +1,14 @@
+.contact-nav {
+	background-color: #02557d;
+	color: white;
+	padding: 0.5rem 0;
+}
+.container-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img-logo {
+	width: 70px;
+}
