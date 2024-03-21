@@ -4,7 +4,6 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Prueba técnica</title>
-		<script src="js/main.js"></script>
 		<link rel="stylesheet" href="css/styles.css" />
 		<!-- Bootstrap -->
 		<link
@@ -23,40 +22,40 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
 		/>
-	</head>
+	</head>	
 	<body>
 		<div class="navbar-fixed">
 			<div class="contact-nav">
 				<div class="container container-nav">
 					<div class="d-flex gap-5">
-						<div>
+						<a href="https://wa.me/123456789" target="_blank" class="text-white">
 							<i class="bi bi-telephone-fill"></i>
 
 							<span>123 456 789</span>
-						</div>
+						</a>
 
-						<div>
+						<a href="mailto:info@mail.com" class="text-white" target="_blank">
 							<i class="bi bi-envelope-fill"></i>
 
 							<span>info@email.com</span>
-						</div>
+						</a>
 					</div>
 
 					<div class="d-flex gap-4">
-						<a href="#" class="text-white">
+						<a href="https://youtube.com" target="_blank" class="text-white">
 							<i class="bi bi-youtube"></i>
 						</a>
-						<a href="#" class="text-white">
+						<a href="https://instagram.com" target="_blank" class="text-white">
 							<i class="bi bi-instagram"></i>
 						</a>
-						<a href="#" class="text-white">
+						<a href="https://facebook.com" target="_blank" class="text-white">
 							<i class="bi bi-facebook"></i>
 						</a>
 					</div>
 				</div>
 			</div>
 
-			<nav class="navbar navbar-expand-lg">
+			<nav class="navbar navbar-expand-lg" id="navbar">
 				<div class="container">
 					<a class="navbar-brand" href="#">
 						<img src="public/img/LOGO.png" class="img-logo" alt="logo" />
@@ -230,6 +229,589 @@
 					</div>
 				</div>
 			</div>
+			<div
+				class="d-flex align-items-center justify-content-center mx-auto mt-5"
+			>
+				<button class="mx-auto btn-outline">View more</button>
+			</div>
 		</section>
+
+		<section class="bg-blue" id="#about-us">
+			<div class="container py-5">
+				<div class="row gap-4">
+					<div class="col-sm-12 col-lg">
+						<div class="d-flex align-items-center gap-2">
+							<div class="section-circle"></div>
+							<h2 class="fw-normal fs-3 text-white">About Us</h2>
+						</div>
+						<div class="section-line"></div>
+						<strong class="fs-2 ms-lg-4 text-white"
+							>Know everything we do for you</strong
+						>
+
+						<p class="ms-lg-4 text-white mt-5">
+							The university is a physical place, buildings, laboratories,
+							libraries... Where students and teachers meet. The university is
+							also a human-social system, that is, a set of elements that are
+							related and interact with each other.
+						</p>
+						<button class="header-button mt-5 ms-4 about-btn-1">Read more</button>
+					</div>
+
+					<div
+						class="col-sm-12 col-lg d-flex justify-content-center align-items-center position-relative"
+					>
+						<img
+							src="public/img/IMAGE ABOUT US.jpg"
+							class="img-fluid border border-4 rounded-3 w-75 mx-auto z-2"
+							alt="about-us"
+							draggable="false"
+						/>
+
+						<div
+							class="border-bottom border-end border-start border-4 rounded-3 position-absolute rotate w-70 mt-5 me-3 mx-auto z-0 border-warning border-opacity-50"
+						>
+							<img
+								src="public/img/IMAGE ABOUT US.jpg"
+								class="img-fluid opacity-0"
+								alt="about-us"
+							/>
+						</div>
+
+						<div
+							class="about-us-square border border-4 rounded-3 position-absolute"
+						></div>
+						<div
+							class="about-us-square border border-4 rounded-3 position-absolute top-75 about-us-square-opacity"
+						></div>
+
+					</div>
+
+					<div>
+						<button class="header-button mt-5 ms-4 about-btn-2">Read more</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-image py-5 info-bg position-relative">
+			<div class="bg-video">
+				<div class="container info-container">
+					<div class="info-element-container">
+						<div class="info-icon-container"">
+							<img src="public/img/ICONO 1.png" class="info-icon" alt="info" />
+						</div>
+
+						<strong class="info-element-text">Excellent Content</strong>
+					</div>
+
+					<div class="info-element-container">
+						<div class="info-icon-container"">
+							<img src="public/img/ICONO 2.png" class="info-icon" alt="info" />
+						</div>
+
+						<strong class="info-element-text">Experts Instructors</strong>
+					</div>
+
+					<div class="info-element-container">
+						<div class="info-icon-container"">
+							<img src="public/img/ICONO 3.png" class="info-icon" alt="info" />
+						</div>
+
+						<strong class="info-element-text">The Best Professionals</strong>
+					</div>
+
+					<div class="info-element-container">
+						<div class="info-icon-container"">
+							<img src="public/img/ICONO 4.png" class="info-icon" alt="info" />
+						</div>
+
+						<strong class="info-element-text">Countless Courses</strong>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-5 container">
+
+			<div class="d-flex align-items-center gap-2">
+				<div class="section-circle"></div>
+				<h2 class="fw-normal fs-3">Study careers</h2>
+			</div>
+			<div class="section-line"></div>
+			<strong class="fs-2 ms-4">Explore the different careers we offer</strong>
+
+			<div class="careers-container ms-md-4 mt-5">
+				<div class=" py-5 career careers-1 rounded-3 shadow position-relative">
+					<div class="rounded-3 careers-content careers-img-1">
+					</div>
+
+					<div class="position-absolute w-100 h-100 careers-bg careers-content">
+						<strong class="text-white careers-title">Administration</strong>
+						<button class="header-button">Explore</button>
+					</div>
+				</div>
+				<div class=" py-5 career careers-2 rounded-3 shadow position-relative">
+					<div class="rounded-3 careers-content careers-img-2">
+					</div>
+
+					<div class="position-absolute w-100 h-100 careers-bg careers-content">
+						<strong class="text-white careers-title">Accounting</strong>
+						<button class="header-button">Explore</button>
+					</div>
+				</div>
+
+				<div class=" py-5 career careers-3 rounded-3 shadow position-relative">
+				<div class="rounded-3 careers-content careers-img-3">
+					</div>
+
+					<div class="position-absolute w-100 h-100 careers-bg careers-content">
+						<strong class="text-white careers-title">Mathematics</strong>
+						<button class="header-button">Explore</button>
+					</div>
+				</div>
+
+				<div class=" py-5 career careers-4 rounded-3 shadow position-relative">
+					<div class="rounded-3 careers-content careers-img-4">
+					</div>
+
+					<div class="position-absolute w-100 h-100 careers-bg careers-content">
+						<strong class="text-white careers-title">Architecture</strong>
+						<button class="header-button">Explore</button>
+					</div>
+				</div>
+				<div class=" py-5 career careers-5 rounded-3 shadow position-relative">
+					<<div class="rounded-3 careers-content careers-img-5">
+					</div>
+
+					<div class="position-absolute w-100 h-100 careers-bg careers-content">
+						<strong class="text-white careers-title">Programming</strong>
+						<button class="header-button">Explore</button>
+					</div>
+				</div>
+				<div class=" py-5 career careers-6 rounded-3 shadow position-relative">
+					<div class="rounded-3 careers-content careers-img-6">
+					</div>
+
+					<div class="position-absolute w-100 h-100 careers-bg careers-content">
+						<strong class="text-white careers-title">Biology</strong>
+						<button class="header-button">Explore</button>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="d-flex align-items-center justify-content-center mx-auto mt-5"
+			>
+				<button class="mx-auto btn-outline">View more</button>
+			</div>
+
+		</section>
+
+		<section class="bg-gray" id="#team">
+			<div class="container py-5">
+				<div class="d-flex align-items-center gap-2">
+					<div class="section-circle"></div>
+					<h2 class="fw-normal fs-3">Our team</h2>
+				</div>
+				<div class="section-line"></div>
+				<strong class="fs-2 ms-4">Meet the best professionals</strong>
+
+				<div id="carouselExample" class="carousel slide mt-5 carousel-team">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card rounded-3 shadow">
+								<img
+									src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+									class="card-img"
+									alt="team-1"
+								/>
+		
+								<div class="bg-white p-1 rounded-circle team-image-container">
+									<img
+										src="public/img/IMAGE TEAM 1.jpg"
+										class="rounded-circle img-fluid team-image"
+										alt="team-1"
+									/>
+								</div>
+								<div class="card-body">
+									<h4 class="text-center">Jhon Smith</h5>
+									<h5 class="text-center text-yellow">Math teacher.</h5>
+		
+									<div
+										class="d-flex align-items-center justify-content-center mx-auto mt-4"
+									>
+										<button class="mx-auto btn-outline-md">View more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card rounded-3 shadow">
+								<img
+									src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+									class="card-img"
+									alt="team-1"
+								/>
+		
+								<div class="bg-white p-1 rounded-circle team-image-container">
+									<img
+										src="public/img/IMAGE TEAM 2.jpg"
+										class="rounded-circle img-fluid team-image"
+										alt="team-1"
+									/>
+								</div>
+								<div class="card-body">
+									<h4 class="text-center">Dave Morgan</h5>
+									<h5 class="text-center text-yellow">Math teacher.</h5>
+		
+									<div
+										class="d-flex align-items-center justify-content-center mx-auto mt-4"
+									>
+										<button class="mx-auto btn-outline-md">View more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card rounded-3 shadow">
+								<img
+									src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+									class="card-img"
+									alt="team-1"
+								/>
+		
+								<div class="bg-white p-1 rounded-circle team-image-container">
+									<img
+										src="public/img/IMAGE TEAM 4.jpg"
+										class="rounded-circle img-fluid team-image"
+										alt="team-1"
+									/>
+								</div>
+								<div class="card-body">
+									<h4 class="text-center">Zara Smith</h5>
+									<h5 class="text-center text-yellow">Biology teacher.</h5>
+		
+									<div
+										class="d-flex align-items-center justify-content-center mx-auto mt-4"
+									>
+										<button class="mx-auto btn-outline-md">View more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card rounded-3 shadow">
+								<img
+									src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+									class="card-img"
+									alt="team-1"
+								/>
+		
+								<div class="bg-white p-1 rounded-circle team-image-container">
+									<img
+										src="public/img/IMAGE TEAM 3.jpg"
+										class="rounded-circle img-fluid team-image"
+										alt="team-1"
+									/>
+								</div>
+								<div class="card-body">
+									<h4 class="text-center">Jimena Soto</h5>
+									<h5 class="text-center text-yellow">Math teacher.</h5>
+		
+									<div
+										class="d-flex align-items-center justify-content-center mx-auto mt-4"
+									>
+										<button class="mx-auto btn-outline-md">View more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+
+				<div class="team-container mt-5 ms-lg-4 position-relative grid-team">
+					<div class="card rounded-3 shadow">
+						<img
+							src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+							class="card-img"
+							alt="team-1"
+						/>
+
+						<div class="bg-white p-1 rounded-circle team-image-container">
+							<img
+								src="public/img/IMAGE TEAM 1.jpg"
+								class="rounded-circle img-fluid team-image"
+								alt="team-1"
+							/>
+						</div>
+						<div class="card-body">
+							<h4 class="text-center">Jhon Smith</h5>
+							<h5 class="text-center text-yellow">Math teacher.</h5>
+
+							<div
+								class="d-flex align-items-center justify-content-center mx-auto mt-4"
+							>
+								<button class="mx-auto btn-outline-md">View more</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="card rounded-3 shadow">
+						<img
+							src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+							class="card-img"
+							alt="team-1"
+						/>
+
+						<div class="bg-white p-1 rounded-circle team-image-container">
+							<img
+								src="public/img/IMAGE TEAM 2.jpg"
+								class="rounded-circle img-fluid team-image"
+								alt="team-1"
+							/>
+						</div>
+						<div class="card-body">
+							<h4 class="text-center">Dave Morgan</h5>
+							<h5 class="text-center text-yellow">Math teacher.</h5>
+
+							<div
+								class="d-flex align-items-center justify-content-center mx-auto mt-4"
+							>
+								<button class="mx-auto btn-outline-md">View more</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="card rounded-3 shadow">
+						<img
+							src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+							class="card-img"
+							alt="team-1"
+						/>
+
+						<div class="bg-white p-1 rounded-circle team-image-container">
+							<img
+								src="public/img/IMAGE TEAM 4.jpg"
+								class="rounded-circle img-fluid team-image"
+								alt="team-1"
+							/>
+						</div>
+						<div class="card-body">
+							<h4 class="text-center">Zara Smith</h5>
+							<h5 class="text-center text-yellow">Biology teacher.</h5>
+
+							<div
+								class="d-flex align-items-center justify-content-center mx-auto mt-4"
+							>
+								<button class="mx-auto btn-outline-md">View more</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="card rounded-3 shadow">
+						<img
+							src="public/img/IMAGE BACKGROUND CARD TEAM  (3).jpg"
+							class="card-img"
+							alt="team-1"
+						/>
+
+						<div class="bg-white p-1 rounded-circle team-image-container">
+							<img
+								src="public/img/IMAGE TEAM 3.jpg"
+								class="rounded-circle img-fluid team-image"
+								alt="team-1"
+							/>
+						</div>
+						<div class="card-body">
+							<h4 class="text-center">Jimena Soto</h5>
+							<h5 class="text-center text-yellow">Math teacher.</h5>
+
+							<div
+								class="d-flex align-items-center justify-content-center mx-auto mt-4"
+							>
+								<button class="mx-auto btn-outline-md">View more</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+								class="d-flex align-items-center justify-content-center mx-auto mt-5"
+							>
+								<button class="mx-auto header-button">View more</button>
+							</div>
+			</div>
+		</section>
+
+		<div id="videoModal" class="modal modal-custom">
+			<div class="modal-content">
+				<span class="close">x</span>
+				<video id="videoPlayer" controls>
+					<source src="public/vid/review-1.mp4" type="video/mp4">
+					Tu navegador no soporta la reproducción de videos.
+				</video>
+			</div>
+		</div>
+
+		<section class="py-5 container" id="#testimonials">
+
+			<div class="testimonial-container">
+				<div class="testimonial-bg ">
+					<div class="testimonial-content">
+						<div class="testimonial-col ">
+							<span class="text-white testimonial-sub">VIEW TESTIMONIAL</span>
+							<strong class="testimonial-text text-white">FOR US IT IS VERY IMPORTANT TO KNOW THE OPINIONS OF OUR CLIENTS</strong>
+						</div>
+
+						<div class="testimonial-col ">
+							<div id="carouselExampleCaptions" class="carousel slide">
+								<div class="carousel-indicators">
+									<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+									<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+									<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+									<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item position-relative active carousel-item-1">
+										<div class="bg-carousel">
+											<button class="play">
+												<div class="triangle"></div>
+											</button>
+											<p class="carousel-custom-caption">JEFF FRESHMAN</p>
+										</div>
+									</div>
+
+									<div class="carousel-item position-relative carousel-item-2">
+										<div class="bg-carousel">
+											<button class="play">
+												<div class="triangle"></div>
+											</button>
+											<p class="carousel-custom-caption">JEFF FRESHMAN</p>
+										</div>
+									</div>
+									
+									<div class="carousel-item position-relative carousel-item-3">
+										<div class="bg-carousel">
+											<button class="play">
+												<div class="triangle"></div>
+											</button>
+											<p class="carousel-custom-caption">JEFF FRESHMAN</p>
+										</div>
+									</div>
+
+									<div class="carousel-item position-relative carousel-item-4">
+										<div class="bg-carousel">
+											<button class="play">
+												<div class="triangle"></div>
+											</button>
+											<p class="carousel-custom-caption">JEFF FRESHMAN</p>
+										</div>
+									</div>
+
+									<div class="carousel-item position-relative carousel-item-5">
+										<div class="bg-carousel">
+											<button class="play">
+												<div class="triangle"></div>
+											</button>
+											<p class="carousel-custom-caption">JEFF FRESHMAN</p>
+										</div>
+									</div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<footer class="bg-blue py-5">
+			<div class="container footer-row">
+				<div>
+					<img src="public/img/LOGO.png" class="img-logo-lg" alt="logo" />
+				</div>
+
+				<div class="footer-col">
+					<strong class="footer-title">Quick Links</strong>
+					<a href="#about-us" class="footer-link">About Us</a>
+					<a href="#courses" class="footer-link">Courses</a>
+					<a href="#team" class="footer-link">Team</a>
+					<a href="#contact-us" class="footer-link">Contact Us</a>
+				</div>
+
+				<div class="footer-col">
+					<strong class="footer-title">Contact Info</strong>
+					<a href="https://wa.me/123456789" target="_blank" class="footer-link">
+						<i class="bi bi-telephone-fill"></i>
+						<span>
+							123 456 789
+						</span></a>
+					<a href="mailto:info@mail.com" target="_blank" class="footer-link">
+						<i class="bi bi-envelope-fill"></i>
+						<span>info@mail.com</span>
+					</a>
+					<a href="https://www.google.com/maps/place/Sambil+San+Crist%C3%B3bal/@7.7950857,-72.2493133,14z/data=!4m6!3m5!1s0x8e666d3214d84f49:0xf6cb164e1a7bd1a9!8m2!3d7.7938101!4d-72.2352371!16s%2Fg%2F11rhy1jz4b?entry=ttu" target="_blank" class="footer-link">
+						<i class="bi bi-pin-map-fill"></i>
+						<span>Address</span>
+					</a>
+
+					<div class="d-flex gap-4">
+						<a href="https://youtube.com" target="_blank" class="text-white">
+							<i class="bi bi-youtube"></i>
+						</a>
+						<a href="https://instagram.com" target="_blank" class="text-white">
+							<i class="bi bi-instagram"></i>
+						</a>
+						<a href="https://facebook.com" target="_blank" class="text-white">
+							<i class="bi bi-facebook"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="footer-col">
+					<strong class="footer-title">Newsletter</strong>
+					<p class="text-white">Receive all our promotions and notifications</p>
+
+					<div class="input-group mb-3">
+						<input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="button-addon2">
+						<button class="btn btn-outline-warning" type="button" id="button-addon2">
+							Submit
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="container mt-5 border border-1 border-end-0 border-bottom-0 border-start-0 p-2 d-flex flex-sm-column flex-md-row justify-content-between align-items-center">
+				<div>
+					<p class="text-white">© Copyright University. All Rights Reserved</p>
+					<p class="text-white ">This Website Was Designed And Developed by Josesilvera.com</p>
+				</div>
+
+				<a href="https://josesilvera.com" target="_blank">
+					<img src="public/img/logo Silvera Enterprises.png" draggable="false" class="img-logo-lg" alt="logo" />
+				</a>
+			</div>
+
+		</footer>
+		<script src="js/main.js"></script>
+
 	</body>
 </html>
